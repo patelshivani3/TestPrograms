@@ -11,7 +11,16 @@ namespace TestPrograms
         static void Main(string[] args)
         {
             Console.WriteLine("HELLO WORLD");
+            Addition A = new Addition();
+            A.Add();
+            Substraction S = new Substraction();
+            S.Sub();
+            Multiplication M = new Multiplication();
+            M.Mul();
+            Division D = new Division();
+            D.Div();
             Console.ReadLine();
+
         }
     }
 }
