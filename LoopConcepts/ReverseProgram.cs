@@ -19,7 +19,7 @@ namespace LoopConcepts
                 remainder = num % 10;
                 reverse = (reverse * 10) + remainder;
                 num = num / 10;
-                Console.WriteLine("Rmainder:{0} Number:{1} Reverse:{2}", remainder, num, reverse);
+                //Console.WriteLine("Rmainder:{0} Number:{1} Reverse:{2}", remainder, num, reverse);
             }
             Console.WriteLine("Reverse number is : " + reverse);
                 
